@@ -1,36 +1,43 @@
 <!DOCTYPE html>
+
+<!-- Establish HTML document with CSS Style sheet with Relative Paths -->
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
   <title>Terry Lashley Bio</title>
+  <Link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
+  <header>
   <!-- Header -->
-  <h1>Terry L. Lashley BIO</h1>
-  <section>
-    <article>
-    <a target="_blank" href="images/tlashley.jpg">
-      <img src="images/tlashley.jpg" width="200" height="220" alt="Terry L. Lashley">
-    </a>
-    <p><em>Data Science and Analytics * Supply Chain Management * Python Developer * DBA</em></p>
-    </article>
-  </section>
+    <h1>Data Analytics * Supply Chain Management * Python Developer</h1>
+  </header>
 
-  <article>
-  <h3>Professional Profile</h3>
-  <p>Data-driven Supply Chain Professional with over 10 years of experience interpreting and analyzing logistical operations with a proven track record of increasing productivity, profitability, and quality through innovative coaching, talent development, and effective leadership. A seasoned leader who can view projects and processes through a broad lens while maintaining the ability to focus on the minor details and task to move the needle forward. Innovative data analyst proficient in data modeling, data mining and data visualization using various techniques such as Python, Padas, Matplotlib, and SQL to develop spreadsheets and databases that optimize organizational efficiency and keep high volumes of information manageable and digestible. Trained leadership instructor who builds and develops strong teams instilled with core values and critical thinking skills needed to promote innovation and teamwork.</p>
-  </article>
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Terry L. Lashley</h2>
+        <img id= "bio-image" src="images/tlashley.jpg" width= 300 height= 300 alt="Terry L. Lashley">
+          </section>
+      <p>Data-driven Supply Chain Professional with over 10 years of experience interpreting and analyzing logistical operations with a proven track record of increasing productivity, profitability, and quality through innovative coaching, talent development, and effective leadership. A seasoned leader who can view projects and processes through a broad lens while maintaining the ability to focus on the minor details and task to move the needle forward. Innovative data analyst proficient in data modeling, data mining and data visualization using various techniques such as Python, Padas, Matplotlib, and SQL to develop spreadsheets and databases that optimize organizational efficiency and keep high volumes of information manageable and digestible. Trained leadership instructor who builds and develops strong teams instilled with core values and critical thinking skills needed to promote innovation and teamwork.</p>
+    </section>
+  
 
-  <article>
-      <ul>
+  <aside id="contact-info">
+  <h2>Contact Info</h2>
+          <ul>
        <li><strong>Email:</strong> <a href="#">Terry.L.Lashley.Pro@gmail.com</a></li>
        <li><strong>Github:</strong> <a href="https://github.com/terrylashley" target="_blank"> Terry Lashley Github</a></li>
        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/terrylashley/" target="_blank">Terry Lashley LinkedIn</a></li>
       </ul>
 
-  </article>
+  </aside>
+
+  
+
+
   <article>
     <table>
     <tr>
@@ -92,8 +99,8 @@
 
 
 
-  </section>
-
+  
+</main>
 
 
 </body>
